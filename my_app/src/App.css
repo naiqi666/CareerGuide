@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+/* .poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+/* page css */
+* {
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+}
+.all {
+  display: grid;
+  grid-template-rows: 100px;
+}
+/* page top */
+.top_botton {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  gap: 0.5px;
+}
+/* page body */
+.body {
+  display: grid;
+  width: 100%;
+  height: 600px;
+  top: 100px;
+  bottom: 100px;
+  background-color: white;
+}
+.body-page {
+  text-align: center;
+  margin: 130px;
+  /* background-color: rebeccapurple; */
+}
+/* page end */
+.end {
+  display: grid;
+  margin-top: 100px;
+  height: 50px;
+  background-color: white;
+}
+.api {
+  text-align: center;
+  margin-top: 6px;
+}
+/* homepage */
+.Home_info {
+  margin-top: 130px;
+  margin-left: 175px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+}
+.Home-input {
+  margin-left: 250px;
+  margin-top: 35px;
+}
+.Home_submit {
+  margin-left: 290px;
+  margin-top: 20px;
+}
+.Home_info {
+  font-size: 40px;
+}
+
+.all-Home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.h_picture img {
+  /* object-fit: cover; */
+  height: 600px;
+  width: 100%;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+.Home_name {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 45px;
+}
+.Home_information {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 30px;
+}
+.AnimatedGif {
+  height: 20px;
+}
+/* detailPage */
+.textarea {
+  margin-top: 30px;
+  height: 100px;
+  width: 1246px;
+}
+.textinfo {
+  margin-top: 30px;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 30px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+.ProgressBar {
+  margin-top: 30px;
+  background: linear-gradient(
+    to right,
+
+    red,
+    orange,
+    yellow,
+    yellowgreen,
+    limegreen
+  );
+  background-attachment: fixed;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: black;
+  transition: width 0.5s ease;
+}
+.api {
+  margin-left: 150px;
+  margin-top: 100px;
+  width: 600px;
+}
+.api_botton {
+  margin-left: 300px;
+  width: 60px;
+}
+/* reprot */
+.report {
+  background-color: black;
+}
+
+.report_title {
+  font-family: "Poetsen One", sans-serif;
+}
+
+.report_name {
+  font-family: "Poetsen One", sans-serif;
+}
+.report_salary {
+  font-family: "Poetsen One", sans-serif;
+  margin-bottom: 30px;
+}
+/* basequestion */
+.question_left {
+  font-family: "Poetsen One", sans-serif;
+}
+
+.base_progressbar {
+  margin-top: 30px;
+  background: linear-gradient(
+    to right,
+
+    red,
+    orange,
+    yellow,
+    yellowgreen,
+    limegreen
+  );
+  background-attachment: fixed;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: black;
+  transition: width 0.5s ease;
+}
+
+.base_question {
+  font-family: "Poetsen One", sans-serif;
+  margin-top: 40px;
+}
+.quiz-answers {
+  font-family: "Poetsen One", sans-serif;
+  justify-self: center;
+  align-self: center;
+  text-align: left;
+  margin-left: 560px;
+}
+.Agreement {
+  margin-top: 10px;
+}
+.prevButton {
+  margin-top: 10px;
+}
+
+.nextButton {
+  margin-top: 10px;
+}
+
+.report_title {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.report_name {
+  margin-bottom: 20px;
+}
+.Jun {
+  font-size: 25px;
+  font-family: "Poetsen One", sans-serif;
+  margin-top: 120px;
+}
